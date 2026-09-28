@@ -197,7 +197,7 @@
 </div>
 
 <script id="data" type="application/json">{
-  "checked_at": "2026-08-03T18:00:00Z",
+  "checked_at": "2026-09-28T00:00:00Z",
   "companies": [
     {
       "id": "exxonmobil",
@@ -290,7 +290,7 @@
         "gold",
         "copper"
       ],
-      "status": "gap"
+      "status": "new"
     },
     {
       "id": "valero-energy",
@@ -1977,52 +1977,45 @@
     },
     "bhp-group": {
       "company_id": "bhp-group",
-      "accession_number": null,
-      "company_name": "BHP Group Limited",
-      "commodities": [
-        "iron ore",
-        "copper",
-        "coal"
-      ],
-      "document_type": "production_report",
-      "document_type_label": "Operational Review FY2026 (ano encerrado em 30/06/2026) — não é resultado financeiro",
+      "accession_number": "Form 6-K, accession number 0001193125-26-355840 (extraído da URL retornada por busca no SEC EDGAR; não reconfirmado por leitura direta do documento nesta sessão — ver note_for_reviewer)",
+      "document_type": "earnings",
+      "document_type_label": "Earnings Completo — Resultados Anuais FY2026 (ano encerrado em 30/06/2026, auditado) — substitui o Operational Review (só produção) anterior",
       "sources": [
         {
-          "filename": "bhp-operational-review-for-the-year-ended-30-june-2026",
-          "label": "Press release da empresa — título original: \"Operational Review for the year ended 30 June 2026\"",
-          "source_url": "https://www.bhp.com/news/media-centre/releases/2026/07/bhp-operational-review-for-the-year-ended-30-june-2026",
-          "captured_at": "2026-07-16T00:00:00Z"
+          "filename": "260818_bhpresultsfortheyearended30june2026_exchangerelease.pdf",
+          "label": "Exchange Release (ASX/LSE) da BHP — \"Results for the year ended 30 June 2026\"",
+          "source_url": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/260818_bhpresultsfortheyearended30june2026_exchangerelease.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "bhp-results-for-the-full-year-ended-30-june-2026",
+          "label": "Press release oficial (bhp.com) — \"BHP Results for the full year ended 30 June 2026\"",
+          "source_url": "https://www.bhp.com/news/media-centre/releases/2026/08/bhp-results-for-the-full-year-ended-30-june-2026",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "d54971d6k.htm",
+          "label": "SEC EDGAR — Formulário 6-K (BHP Group Ltd), veículo de furnish dos resultados FY2026 nos EUA",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0000811809/000119312526355840/d54971d6k.htm",
+          "captured_at": "2026-09-28T00:00:00Z"
         }
       ],
       "tabs": {
-        "earnings_summary": "**Relatório operacional (Operational Review), não financeiro** — divulgado em 16/07/2026. Resultado financeiro/contábil auditado do FY2026 (Annual Results) só sai em 18/08/2026 [PR]. Este relatório traz apenas dados de produção, preços realizados e guidance.\n\n**Minério de Ferro**: produção recorde de ~264,7 Mt atribuível no FY26 (+1% a/a), sustentada por melhor desempenho da cadeia logística na Western Australia Iron Ore (WAIO), que também bateu recorde com 256,9 Mt atribuível (291,2 Mt em base 100%, ante 290 Mt no FY25) [PR]. Preço médio realizado do minério WAIO subiu 3% a/a, para US$ 84,56/wmt [PR]. BHP aprovou US$ 900 milhões para o projeto Ministers North (depósito Brockman de alto teor no Pilbara), ~20 Mtpa, primeiro minério esperado no FY29, sustentando meta de médio prazo da WAIO de >305 Mtpa [PR].\n\n**Cobre**: produção de ~2 Mt (1.953 kt) pelo segundo ano consecutivo, mas -3% a/a, com queda planejada de teor em Escondida e maior complexidade de minério em Spence compensadas por Copper South Australia (Olympic Dam) e Antamina [PR]. Preço médio realizado do cobre subiu 35% a/a, para US$ 5,74/lb [PR]. Produção de cobre do FY26 ficou na metade superior do range de guidance.\n\n**Carvão**: NSWEC (carvão energético) superou o teto do guidance, com 16,4 Mt, por maior volume de carvão \"bypass\" decorrente de sequenciamento de lavra [PR]. Não foi possível confirmar no detalhe os números de BMA (carvão metalúrgico) nesta varredura — sinalizado abaixo.\n\n**Potássio**: Jansen Stage 1 (Canadá) com 84% de conclusão física [PR].\n\n**Guidance FY2027**: cobre entre 1.650–1.800 kt; WAIO entre 284–296 Mt em base 100% (fontes secundárias também citam 260–272 Mt, possivelmente em base atribuível — ambiguidade a confirmar no documento primário completo, que não pôde ser acessado diretamente nesta varredura por bloqueio de acesso).\n\n**Transição de CEO**: Brandon Craig assumiu o cargo de CEO da BHP em 01/07/2026, sucedendo Mike Henry após 6,5 anos no cargo — este é o primeiro Operational Review divulgado sob a nova liderança [PR].",
-        "conference_call_summary": "Não há teleconferência formalmente associada ao Operational Review trimestral/anual (evento é só release + guidance). O release menciona a transição, com uma linha atribuída à companhia: \"From 1 July 2026, Brandon Craig will assume the role of CEO, taking BHP forward from a strong position with reliable operations and a significant pipeline of copper and potash growth projects, to deliver long term value through the cycle.\"\n^Tradução livre: \"A partir de 1º de julho de 2026, Brandon Craig assume o cargo de CEO, levando a BHP adiante a partir de uma posição forte, com operações confiáveis e um pipeline significativo de projetos de crescimento em cobre e potássio, para entregar valor de longo prazo ao longo do ciclo.\" Não foi possível confirmar com certeza se a citação é atribuída nominalmente a Brandon Craig, Mike Henry ou ao Chairman no texto original — tratar como paráfrase do release até confirmação direta do documento fonte.",
-        "commodity_commentary": "A Bloomberg destacou que, apesar dos recordes anuais, a produção trimestral (4T FY26) de minério de ferro e cobre da BHP recuou na margem, em meio aos planos de crescimento da mineradora — manchete \"BHP's Iron Ore, Copper Output Slip as Top Miner Plans For Growth\" [Bloomberg]. A Reuters noticiou que a BHP conseguiu preços trimestrais mais altos de minério de ferro mesmo superando as restrições de compra impostas pela China Mineral Resources Group (CMRG) durante negociações de contrato mais cedo no ano [Reuters]. A imprensa financeira australiana (MarketIndex) registrou reação negativa pontual: ação caiu 2,3% no pregão de 16/07, principalmente por causa do guidance de cobre para o FY27 considerado fraco; bancos mantiveram recomendações inalteradas, com apenas pequenos ajustes de preço-alvo — o consensus target médio recuou de A$ 61,72 para A$ 61,44 [MarketIndex]. Atenção do mercado agora se volta para o resultado financeiro auditado do FY26, em 18/08/2026, e para sinalização de dividendo, dado o balanço com maior flexibilidade."
+        "earnings_summary": "Resultados Anuais FY2026 (auditados), ano encerrado em 30/06/2026, divulgados em 18/08/2026 — documento distinto do Operational Review FY2026 (só produção) já registrado anteriormente. EBITDA underlying recorde de ~US$ 32,9 bi (+27% a/a); lucro atribuível underlying de US$ 13,2 bi (+30% a/a); lucro atribuível estatutário de US$ 9,833 bi (+9% a/a); receita de ~US$ 58,8 bi (+15% a/a). Dividendo total FY26 de 172 US cents/ação (dividendo final de 99 US cents, fully franked, payout ~72%); retorno de caixa a acionistas no ano de ~US$ 8,7 bi, maior patamar em quatro anos. Dívida líquida em 30/06/2026 de ~US$ 8,7 bi (abaixo do range-alvo de US$ 10-20 bi), dívida líquida/EBITDA underlying de 0,3x. Cobre: EBITDA underlying recorde >US$ 18,2 bi (+48% a/a), 54% do EBITDA do grupo — pela primeira vez superando o minério de ferro como maior contribuinte de lucro da BHP; produção de ~1.953kt; preço médio realizado US$ 5,74/lb. Minério de Ferro (WAIO): EBITDA underlying >US$ 14,5-14,7 bi; produção recorde de 265 Mt; menor custo entre as grandes produtoras pelo 7º ano consecutivo. Meta estratégica de aumentar produção de cobre em 50% até meados da década de 2030, crescimento descrito como autofinanciado. A empresa citou que o resultado do ano foi ofuscado pela morte de um contratado na mina de Peak Downs (BMA, Queensland) em julho de 2026. RESSALVA DE FONTE: nesta rodada, o acesso direto (WebFetch) a bhp.com e sec.gov foi bloqueado pela política de rede da sessão; os números acima vêm de múltiplas fontes agregadoras independentes que reproduzem de forma consistente o release oficial, não da leitura linha a linha do PDF/6-K — recomenda-se confirmação direta antes de tratar como definitivo (ver note_for_reviewer).",
+        "conference_call_summary": "Teleconferência de resultados do FY2026 conduzida por Brandon Craig (CEO) e Vandita Pant (CFO) em 18/08/2026. Segundo cobertura agregada (não confirmada por transcript lido diretamente), os temas centrais foram disciplina de capital, a meta de crescimento de cobre autofinanciado (+50% até meados da década de 2030) e o EBITDA underlying descrito como o mais forte da história da companhia. Nenhuma citação literal de Craig/Pant é reproduzida aqui por falta de acesso ao transcript verbatim — recomenda-se buscar a transcrição oficial antes de citar qualquer declaração.",
+        "commodity_commentary": "Mining Weekly noticiou em 18/08/2026, especificamente sobre este resultado: \"BHP bullish on copper outlook, reports highest dividend in four years\", destacando a visão construtiva da companhia para cobre e o maior dividendo anual em quatro anos. Segundo agregadores de mercado (Market Index/Discovery Alert), a ação da BHP subiu ~1,8% no pregão regular de 18/08/2026 e mais ~3,3% em after-hours — não confirmado por fonte primária de cotação. Uma matéria da Bloomberg específica sobre este resultado (\"BHP Profit Jumps 30% on Copper Price and Record Iron Ore Output\") foi localizada, mas está datada de 17/08/2026 (um dia antes da divulgação às 8h30 AEST de 18/08, provável artefato de fuso horário Austrália/EUA) — por respeito estrito à regra de atualidade, não foi incluída formalmente como commentary_source; fica registrada apenas como contexto para o revisor avaliar se a exceção de fuso horário se justifica."
       },
-      "generated_by": "claude-research",
-      "generated_at": "2026-07-20T00:00:00Z",
-      "status": "summarized",
-      "note_for_reviewer": "Acesso direto à página oficial da BHP e ao PDF do release retornou erro 403 nesta sessão (bloqueio de rede/proxy) — dados acima foram reconstruídos a partir de múltiplos agregadores/sindicações que citam o release primário (SEC 6-K, StockTitan, Kalkine, TipRanks, IDNFinancials), não da leitura direta do documento. Recomenda-se checagem cruzada do PDF oficial (bhp.com) antes de uso final, especialmente para: guidance FY27 de minério de ferro (números conflitantes entre fontes: 284-296Mt vs 260-272Mt, bases atribuível vs 100% não claras), detalhamento de BMA (carvão metalúrgico) que não foi encontrado nesta varredura, e a atribuição exata da citação executiva. Resultado financeiro auditado do FY2026 (Annual Results) sai em 18/08/2026 — este documento é só operacional.",
       "commentary_sources": [
         {
-          "outlet": "Bloomberg",
-          "title": "BHP's Iron Ore, Copper Output Slip as Top Miner Plans For Growth",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-15/bhp-s-iron-ore-copper-output-slip-as-top-miner-plans-for-growth",
-          "captured_at": "2026-07-15T00:00:00Z"
-        },
-        {
-          "outlet": "Reuters",
-          "title": "BHP wins higher quarterly iron ore prices, overcoming China's buying curbs",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N43I020:0-bhp-wins-higher-quarterly-iron-ore-prices-overcoming-china-s-buying-curbs/",
-          "captured_at": "2026-07-16T00:00:00Z"
-        },
-        {
-          "outlet": "MarketIndex",
-          "title": "BHP FY26 scorecard: record iron ore, soft copper guidance – and a dividend surprise brewing",
-          "url": "https://www.marketindex.com.au/news/bhp-fy26-scorecard-record-iron-ore-soft-copper-guidance-and-a-dividend-surprise-brewing",
-          "captured_at": "2026-07-16T00:00:00Z"
+          "outlet": "Mining Weekly",
+          "title": "BHP bullish on copper outlook, reports highest dividend in four years",
+          "url": "https://www.miningweekly.com/article/bhp-bullish-on-copper-outlook-reports-highest-dividend-in-four-years-2026-08-18",
+          "captured_at": "2026-08-18T00:00:00Z"
         }
-      ]
+      ],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03). O Operational Review FY26 já registrado explicitamente previa que os Resultados Anuais auditados sairiam em 18/08/2026 — esta entrada cobre esse documento. LIMITAÇÃO: WebFetch bloqueado pela política de rede da sessão para bhp.com, sec.gov e a maior parte dos veículos de imprensa; números cruzados entre múltiplas fontes agregadoras independentes (MarketScreener, Kalkine, Miningmx, Market Index, InsiderFinance, GuruFocus) que convergem entre si, mas não confirmados por leitura direta do PDF/6-K oficiais. Accession number do 6-K extraído apenas da URL de busca, não reconfirmado. Recomenda-se fortemente que o próximo revisor com acesso de rede irrestrito abra diretamente o exchange release ou o 6-K para validar os números linha a linha, especialmente o segmento de carvão (não detalhado nesta rodada) e qualquer citação direta da administração."
     },
     "anglo-american": {
       "company_id": "anglo-american",
@@ -3115,55 +3108,57 @@
     },
     "south32": {
       "company_id": "south32",
-      "accession_number": null,
-      "company_name": "South32 Limited",
-      "commodities": [
-        "aluminum",
-        "alumina",
-        "manganese",
-        "zinc",
-        "silver",
-        "metallurgical coal"
-      ],
-      "document_type": "production_report",
-      "document_type_label": "Relatório de Produção Trimestral (Junho 2026 / 4T FY26)",
+      "accession_number": "N/A — ASX/LSE/JSE regulatory announcement (sem accession number SEC; South32 é registrante estrangeiro privado com ADR SOUHY). Referência: ASX Market Announcement de 27/08/2026, Appendix 4E + FY2026 Full Year Financial Results and Outlook.",
+      "document_type": "earnings",
+      "document_type_label": "Resultado Financeiro Anual FY2026 (ano encerrado 30/06/2026) — Appendix 4E + Financial Results and Outlook — substitui o relatório de produção trimestral anterior",
       "sources": [
         {
-          "filename": "quarterly-report-june-2026",
-          "label": "RNS/regulatory news distribuído via Investegate — título original: \"Quarterly Report: June 2026\"",
-          "source_url": "https://www.investegate.co.uk/announcement/rns/south32-limited-di---s32/quarterly-report-june-2026-/9675778",
-          "captured_at": "2026-07-20T00:00:00Z"
+          "filename": "financial-results-and-outlook-year-ended-30-june-2026.pdf",
+          "label": "South32 — 2026 Full Year Financial Results and Outlook (ASX/LSE/JSE:S32; ADR:SOUHY), 27/08/2026",
+          "source_url": "https://www.south32.net/docs/default-source/all-financial-results/financial-results-and-outlook-year-ended-30-june-2026.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "appendix-4e-and-2026-financial-results-outlook.pdf",
+          "label": "South32 — Appendix 4E and 2026 Financial Results and Outlook",
+          "source_url": "https://www.south32.net/docs/default-source/exchange-releases/appendix-4e-and-2026-financial-results-outlook-0xf54651cba2d26eb9.pdf?sfvrsn=98ce9977_0",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "073906c80vj1yy.pdf",
+          "label": "ASX Market Announcement, 27/08/2026 (pacote de resultados FY26 da S32)",
+          "source_url": "https://announcements.asx.com.au/asxpdf/20260827/pdf/073906c80vj1yy.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "fy26-full-year-financial-results-and-annual-reporting-suite-released",
+          "label": "South32 — comunicado \"Base metals business drives strong earnings growth in full year financial results\"",
+          "source_url": "https://www.south32.net/news-media/latest-news/fy26-full-year-financial-results-and-annual-reporting-suite-released",
+          "captured_at": "2026-09-28T00:00:00Z"
         }
       ],
       "tabs": {
-        "earnings_summary": "**Relatório de Produção do Trimestre encerrado em Junho de 2026 (4T FY26)** — divulgado em 20/07/2026, mesmo dia da atualização deste painel. Relatório operacional, sem receita/EBITDA/lucro.\n\n**Guidance FY26 superado no grupo**: South32 excedeu o guidance de produção do Grupo para o FY26 [PR]. Volume de vendas trimestral subiu 15% t/t, liberando ~US$ 200 milhões de capital de giro e reforçando geração de caixa [PR].\n\n**Produção por ativo (FY26, vs. guidance)**: alumínio 1% acima do esperado [PR]. Sierra Gorda (cobre, Chile) superou o guidance em 2%, com distribuições anuais recordes de US$ 401 milhões [PR]. Cannington (zinco-chumbo-prata) terminou 2% acima da meta [PR]. Manganês superou o guidance tanto na Austrália (GEMCO, +1%) quanto na África do Sul (+4%) [PR].\n\n**Projetos**: aprovada quarta linha de moagem em Sierra Gorda, com expectativa de aumentar produção de cobre-equivalente em ~30% [PR]. Em Hermosa (Arizona), concluído o licenciamento federal do projeto Taylor (zinco-chumbo-prata) [PR]. Guidance FY27 de Sierra Gorda mantido em 90,2 kt de cobre atribuível; guidance FY27 completo para os demais ativos (Worsley, Hillside, GEMCO, Illawarra) deve ser detalhado no resultado anual (Appendix 4E), ainda não coberto nesta varredura.\n\n**Divestimento de alumínio para a Alcoa — status**: o relatório trata como evento confirmado/em andamento (não concluído) o acordo vinculante condicional anunciado em 30/06/2026 para vender a maior parte da cadeia de alumínio (Worsley Alumina 86%, Hillside Aluminium 100%, MRN bauxita 33%, Brazil Alumina 36%, Brazil Aluminium 40%) à Alcoa por até US$ 5,6 bilhões (US$ 3,1 bi em caixa + ~US$ 1,0 bi em ações Alcoa + assunção de US$ 750 milhões em dívida líquida/leasing + até US$ 750 milhões em CVR ligado a preços) mais ~US$ 1,2 bilhão em provisões de reabilitação [PR-Alcoa]. Mozal Aluminium (Moçambique) está EXCLUÍDA da transação e segue em care & maintenance [PR-Alcoa]. Fechamento (closing) previsto para o 2º semestre do FY27 (1S calendário 2027), sujeito a aprovação de acionistas e órgãos reguladores — **ainda não fechado**, importante não confundir assinatura do acordo (30/06) com conclusão da venda.",
-        "conference_call_summary": "Não localizada teleconferência associada a este relatório de produção trimestral (padrão da South32 é teleconferência apenas nos resultados semestrais/anuais). Nenhuma citação direta de executivo sobre este relatório específico foi localizada nesta varredura — sinalizado para verificação futura.",
-        "commodity_commentary": "Cobertura de imprensa internacional de primeira linha (Bloomberg/Reuters/FT) localizada nesta varredura refere-se especificamente ao anúncio do acordo com a Alcoa em 30/06/2026, não ao relatório de produção de hoje (20/07): a Bloomberg noticiou que a Alcoa \"aposta em boom do alumínio\" com acordo de até US$ 5,6 bilhões pelos ativos da South32, pagando US$ 3,1 bilhões em caixa e ~US$ 1 bilhão em ações, além de assumir US$ 750 milhões em dívida [Bloomberg, 30/06]. Para comentário especificamente sobre o relatório de produção divulgado hoje, a imprensa financeira australiana registrou reação positiva: ações da South32 subiram no pregão de 20/07/2026 após resultado operacional forte do trimestre de junho combinado com avanço do negócio com a Alcoa, descrito como \"resultado histórico\" (landmark deal) [Motley Fool Australia]. A Australian Mining destacou que a companhia entrega resultados operacionais sólidos em meio à reestruturação de portfólio, com Sierra Gorda e manganês superando guidance e avanço em Hermosa [Australian Mining]. Não foi localizada nesta varredura matéria da Bloomberg/Reuters/FT publicada especificamente em 20/07/2026 sobre este relatório trimestral — sinalizado como lacuna abaixo."
+        "earnings_summary": "South32 divulgou em 27/08/2026 o Resultado Financeiro Anual FY2026 (ano fiscal encerrado 30/06/2026), distinto do relatório de produção trimestral (4T FY26) já registrado anteriormente. Underlying EBITDA de US$ 2.462 milhões (+28% a/a), margem operacional recorde de 31%; underlying earnings atribuível de US$ 1.032 milhões (+55% a/a, vs. US$ 666 milhões no FY25); lucro líquido estatutário atribuível de US$ 1.087 milhões (vs. ~US$ 213 milhões no FY25). Dividendo final totalmente franqueado de US5,4 centavos/ação (mais que o dobro dos US2,6 centavos do FY25); dividendos totais do FY26 de US9,3 centavos/ação (+55% a/a). Fluxo de caixa operacional de US$ 610 milhões (+US$ 352 milhões a/a); posição de caixa líquido de US$ 283 milhões. Programa de retorno a acionistas (US$ 2,6 bi) estendido até setembro/2027, com US$ 209 milhões ainda a distribuir. Produção de alumínio vendável caiu 8% para 1.109kt após a Mozal Aluminium entrar em care & maintenance em março/2026. Reserva de minério da Sierra Gorda (South32 45%) subiu 61% para 1,1 bilhão de toneladas; guidance de produção de cobre-equivalente +5% para 91.800t em FY27 e +2% para 94.000t em FY28. IMPORTANTE — não confundir eventos: o annual results reafirma o acordo vinculante (anunciado jun/2026) de venda da cadeia de valor de alumínio à Alcoa por até US$ 5,6 bi, mas isso é apenas o acordo assinado/condicional sendo reportado — NÃO é o fechamento/conclusão da transação. RESSALVA DE FONTE: WebFetch bloqueado para todos os domínios testados nesta sessão; números cruzados entre 3-4 fontes independentes que convergem, mas não confirmados por leitura direta do PDF oficial.",
+        "conference_call_summary": "Houve conference call/webcast de resultados em 27/08/2026 (confirmado por cobertura indexada da Investing.com e Yahoo Finance), mas não foi possível acessar o texto integral da transcrição nesta sessão. Pela cobertura secundária consistente, os temas discutidos incluíram o racional estratégico da venda do alumínio à Alcoa e o reposicionamento como produtora focada em cobre/zinco/prata, a trajetória de crescimento de produção a partir de projetos comprometidos, investimento no projeto Hermosa durante o FY26 (~US$ 700-711 milhões, pequena divergência entre fontes não resolvida) e o upgrade de reserva em Sierra Gorda. Nenhuma citação literal da administração é reproduzida por falta de verificação primária.",
+        "commodity_commentary": "Mining.com noticiou em 27/08/2026, especificamente sobre este resultado, que o lucro anual da South32 subiu 55% (levemente abaixo do consenso da Visible Alpha de US$ 1,05 bi vs. US$ 1,03 bi reportado), com as ações atingindo máxima de mais de 4 anos; destaca que, excluindo o portfólio de alumínio (em processo de venda à Alcoa), o cobre passou a responder por mais da metade do lucro anual da South32, atribuindo a melhora a preços mais altos de metais básicos e preciosos, controle de custos e retomada das operações de manganês na Austrália. Business Day (África do Sul), também em 27/08/2026, noticiou o lucro da South32 'dobrando' com metais básicos e alta de preços."
       },
-      "generated_by": "claude-research",
-      "generated_at": "2026-07-20T00:00:00Z",
-      "status": "summarized",
-      "note_for_reviewer": "Acesso direto ao PDF do relatório em south32.net e à página do Investegate retornou erro 403 nesta sessão (bloqueio de rede/proxy) — dados reconstruídos via agregadores que citam o release primário. LACUNA IMPORTANTE: não foi localizada cobertura de Bloomberg/Reuters/FT publicada especificamente sobre o relatório de produção de 20/07/2026 (toda cobertura de tier 1 encontrada é sobre o anúncio do acordo com a Alcoa em 30/06/2026, um evento relacionado mas distinto); commodity_commentary usa fallback de imprensa financeira australiana (Motley Fool Australia, Australian Mining) para o evento de hoje, conforme regra do painel. Números de produção trimestral absolutos por ativo (toneladas exatas de Worsley, Hillside, GEMCO, Illawarra, Hermosa no trimestre) não foram confirmados em base numérica — apenas variações percentuais vs. guidance foram encontradas nesta varredura; recomenda-se puxar o PDF oficial para números absolutos antes de decisão de investimento. Cuidado ao comunicar a transação Alcoa: ASSINADA em 30/06/2026, ainda NÃO CONCLUÍDA (closing previsto 2S FY27) — não tratar como fechada.",
       "commentary_sources": [
         {
-          "outlet": "Bloomberg",
-          "title": "Alcoa Bets on Aluminum Boom With $5.6 Billion South32 Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-30/south32-sells-aluminum-assets-to-alcoa-in-5-6-billion-deal",
-          "captured_at": "2026-06-30T00:00:00Z"
+          "outlet": "Mining.com",
+          "title": "Australia's South32 annual profit jumps 55%, extends shareholder-returns program",
+          "url": "https://www.mining.com/web/south32-records-55-surge-in-annual-profit-misses-estimates",
+          "captured_at": "2026-08-27T00:00:00Z"
         },
         {
-          "outlet": "Motley Fool Australia",
-          "title": "Why South32 shares edge higher on strong results and landmark deal",
-          "url": "https://www.fool.com.au/2026/07/20/why-south32-shares-edge-higher-on-strong-results-and-landmark-deal/",
-          "captured_at": "2026-07-20T00:00:00Z"
-        },
-        {
-          "outlet": "Australian Mining",
-          "title": "South32 delivers strong operating results amid portfolio overhaul",
-          "url": "https://www.australianmining.com.au/south32-delivers-strong-operating-results-amid-portfolio-overhaul/",
-          "captured_at": "2026-07-20T00:00:00Z"
+          "outlet": "Business Day (South Africa)",
+          "title": "South32's earnings double on base metals and price surge",
+          "url": "https://www.businessday.co.za/companies/earnings/2026-08-27-south32s-earnings-double-on-base-metals-and-price-surge/",
+          "captured_at": "2026-08-27T00:00:00Z"
         }
-      ]
+      ],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03). Confirmado por múltiplas fontes independentes que a South32 divulgou o FY2026 Full Year Financial Results/Appendix 4E em 27/08/2026 — resultado financeiro anual auditado, diferente do relatório de produção trimestral já existente. LIMITAÇÃO: WebFetch bloqueado para todos os domínios relevantes testados nesta sessão (south32.net, mining.com, investing.com, listcorp.com, marketindex.com.au, sec.gov, finance.yahoo.com, entre outros) — números vêm de busca (WebSearch), consistentes entre 3-4 fontes independentes, mas não confirmados por leitura primária linha a linha. Recomenda-se fortemente que o próximo revisor abra diretamente o PDF do Appendix 4E/Financial Results antes de tratar estes números como definitivos. Pequena divergência não resolvida entre fontes secundárias quanto ao capex exato em Hermosa (US$700mi vs US$711mi). Cuidado ao integrar: a venda de alumínio à Alcoa (US$5,6bi) é mencionada apenas como acordo em andamento reafirmado no annual report, não como fechamento concluído — não confundir assinatura com conclusão (caso análogo ao de Anglo American/Codelco citado no CLAUDE.md)."
     },
     "norsk-hydro": {
       "company_id": "norsk-hydro",
@@ -3267,75 +3262,80 @@
     },
     "chalco": {
       "company_id": "chalco",
-      "accession_number": "601600_20260424_H8NF",
-      "company_name": "Aluminum Corporation of China Limited (Chalco)",
-      "commodities": [
-        "aluminum",
-        "alumina"
-      ],
+      "accession_number": "2026082801696 (identificador de documento HKEXnews — não é um accession number formal como SEC EDGAR; não existe equivalente para emissoras SSE A-share)",
       "document_type": "earnings",
-      "document_type_label": "Resultados do 1º Trimestre 2026",
+      "document_type_label": "Relatório Semestral 2026 (1S2026 / H1 2026 Interim Report) — SSE 601600 / HKEX 02600, divulgado em 27-28/08/2026",
       "sources": [
         {
-          "filename": "601600_20260424_H8NF.pdf",
-          "label": "Relatório trimestral oficial — \"Aluminum Corporation of China Limited 2026 First Quarterly Report\", SSE, aprovado 23/04/2026",
-          "source_url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-24/601600_20260424_H8NF.pdf",
-          "captured_at": "2026-07-07T19:00:00Z"
+          "filename": "601600_2026_interim_report_hkexnews.pdf",
+          "label": "2026 Interim Report (HKEXnews filing, disclosure H-share)",
+          "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801696_c.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "601600_2026_semiannual_report_sse_mirror.pdf",
+          "label": "中国铝业股份有限公司2026年半年度报告 (SSE A-share 2026 semi-annual report, mirror via Xueqiu)",
+          "source_url": "https://stockmc.xueqiu.com/202608/601600_20260828_3FBE.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "chalco_h1_2026_profit_forecast.html",
+          "label": "中国铝业2026年半年度业绩预增公告 (comunicado de guidance de alta de lucro do 1S26, chalco.com.cn IR, 14/07/2026)",
+          "source_url": "https://www.chalco.com.cn/tzzgx/thygg/202607/t20260714_173433.html",
+          "captured_at": "2026-09-28T00:00:00Z"
         }
       ],
       "tabs": {
-        "earnings_summary": "**Resultados do 1T2026 — Chalco (SSE: 601600 / HKEX: 2600)**\n\n- Receita operacional: RMB 58.494 milhões, alta de 4,85% a/a [IP]\n- Lucro líquido atribuível aos acionistas: RMB 5.527 milhões, alta de 56,35% a/a [IP]\n- EPS básico: RMB 0,323/ação (+56,80% a/a) [IP]\n- ROE médio ponderado: 7,11%, alta de 2,16 p.p. a/a [IP]\n- Fluxo de caixa operacional: RMB 10.881 milhões, alta de 73,84% a/a [IP]\n- Capex: RMB 1.460 milhões, queda ante RMB 2.461 milhões no 1T25 [IP]\n\n**Volumes (1T26 vs 1T25)**\n- Alumina metalúrgica: produção 4,05 milhões t (-9,60% a/a) [IP]\n- Alumínio primário: produção 2,01 milhões t (+3,61% a/a) [IP]\n\nDocumento é puramente tabular (padrão CSRC), sem MD&A narrativo ou guidance.",
-        "conference_call_summary": "Sem teleconferência — relatórios trimestrais A-share/H-share chineses não incluem earnings call. Texto padronizado do Conselho: \"[A alta do lucro] deve-se principalmente ao fato de a empresa ter se dedicado rigorosamente a uma gestão operacional extremada, aprofundando esforços abrangentes de redução de custos e aumento de eficiência.\"",
-        "commodity_commentary": "As buscas não localizaram reportagem dedicada da Bloomberg, Reuters, FT, WSJ ou South China Morning Post analisando em detalhe a reação do mercado ao resultado do primeiro trimestre de 2026 da Chalco — a cobertura disponível vem principalmente de agregadores financeiros que replicam o comunicado da própria empresa. Registro essa limitação para não atribuir indevidamente essas informações a veículos de primeira linha.\n\nDito isso, os dados amplamente replicados mostram que a Chalco anunciou em abril, via fato relevante, uma projeção de alta de 50% a 58% no lucro líquido do 1T26; o resultado final veio em RMB 5,53 bilhões, alta de 56,35% ante o mesmo trimestre de 2025. As ações da Chalco subiram cerca de 3% em Hong Kong na sessão seguinte ao anúncio. Analistas do Morgan Stanley, citados por veículos especializados do setor, classificaram o resultado como ligeiramente acima da própria estimativa do banco e reiteraram recomendação 'overweight' para o papel.\n\nO mercado atribuiu o salto de lucro à alta dos preços do alumínio, impulsionada por cortes de produção na China e por tarifas de importação dos EUA."
+        "earnings_summary": "Chalco (SSE:601600 / HKEX:02600) divulgou o Relatório Semestral 2026 (1S2026) em 27/08/2026 (disclosure na HKEX em 28/08/2026), confirmando o evento que o painel aguardava desde o 1T2026. Receita operacional: RMB 125,413 bilhões (+7,74% a/a). Lucro líquido atribuível aos acionistas: RMB 11,871 bilhões (+67,91% a/a) — recorde histórico para um semestre. Lucro líquido ex-itens não recorrentes: RMB 11,65 bilhões. LPA básico: RMB 0,693 (vs. RMB 0,413 no 1S2025). Fluxo de caixa operacional líquido: RMB 26,235 bilhões (+84,91% a/a). Dividendo intercalar proposto: RMB 0,276/ação (RMB 2,76 por lote de 10 ações), total ~RMB 4,735 bilhões, payout de 39,88% do lucro do semestre (vs. 30% no 1S2025). Índice dívida/ativos: 42,76% (-3,25 p.p. desde o início do ano). Por segmento: alumínio primário — lucro total de RMB 26,615 bilhões (+RMB 18,51 bilhões a/a), produção recorde de 4,02 milhões de toneladas (+1,26% a/a); alumina — prejuízo segmentar de RMB 818 milhões devido à queda de preços, produção de 7,38 milhões de toneladas (-14,19% a/a). Eventos corporativos: inclusão no índice SSE50; reinclusão no Hang Seng Index após 18 anos de ausência; S&P elevou o outlook de crédito da empresa para 'Positivo'. RESSALVA DE FONTE: WebFetch bloqueado nesta sessão para hkexnews.hk, chalco.com.cn e demais domínios; números idênticos e consistentes em múltiplas fontes independentes (agências chinesas citando o anúncio oficial), mas não confirmados por leitura direta do PDF primário.",
+        "conference_call_summary": "Não foi localizada, via busca, transcrição ou resumo de conference call específico para o 1S2026 — comum para emissoras A-share chinesas, que frequentemente não têm call público estruturado nos moldes dos EUA. Nenhuma citação ou dado de call foi incluído por falta de fonte verificável.",
+        "commodity_commentary": "Shanghai Metals Market (SMM) publicou em 27/08/2026 matéria específica sobre a divulgação, destacando a queda de 14,19% a/a na produção de alumina e o aumento de 1,26% a/a na produção de alumínio primário (recorde), refletindo o contraste entre um segmento de alumina pressionado por preços mais baixos e um segmento de alumínio primário beneficiado por preços elevados — consistente com o salto de 67,91% no lucro líquido do grupo. Não foi encontrada cobertura da Bloomberg, Reuters, FT ou WSJ especificamente sobre este resultado do 1S2026 nesta rodada de busca. Um artigo do MarketScreener com manchete contraditória ('Chalco's H1 Profit Slightly Rises, Revenue Misses Estimates') apareceu na busca mas não foi usado — sua data/conteúdo não puderam ser verificados e ele contradiz o número de +67,91% confirmado por múltiplas fontes independentes, sendo tratado como não confiável."
       },
-      "generated_by": "claude-research",
-      "generated_at": "2026-07-07T19:05:00Z",
-      "status": "summarized",
-      "note_for_reviewer": "1T2026 é o relatório mais recente disponível em 07/07/2026 (próximo, 1S2026, previsto ~25/08/2026). Documento não tem MD&A/guidance por natureza do formato regulatório chinês.",
-      "commentary_sources": []
+      "commentary_sources": [
+        {
+          "outlet": "Shanghai Metals Market (SMM)",
+          "title": "Chalco Reports 14.19% Drop in H1 Alumina Output, 1.26% Rise in Primary Aluminum Production",
+          "url": "https://news.metal.com/newscontent/104098098-chalco-reports-1419-drop-in-h1-alumina-output-126-rise-in-primary-aluminum-production",
+          "captured_at": "2026-08-27T00:00:00Z"
+        }
+      ],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03). O registro de 1T2026 já existente previa o 1S2026 para ~25/08/2026 — este documento confirma essa expectativa (divulgado 27-28/08/2026). LIMITAÇÃO: WebFetch bloqueado nesta sessão para todos os domínios testados (hkexnews.hk, chalco.com.cn, xueqiu.com, marketscreener.com, entre outros); números vêm de resultados de busca, idênticos e consistentes entre múltiplas fontes independentes (incluindo o título do comunicado da própria Chalco reproduzido por agências chinesas), mas não confirmados por leitura direta linha a linha do PDF oficial. Recomenda-se ao próximo revisor abrir o link da HKEXnews/SSE para confirmação final antes de uso definitivo. Nenhum número, citação ou URL foi inventado; a ausência de cobertura Bloomberg/Reuters e de conference call foi deixada explícita em vez de preenchida com aproximação."
     },
     "china-hongqiao": {
       "company_id": "china-hongqiao",
-      "accession_number": null,
-      "company_name": "China Hongqiao Group Limited",
-      "commodities": [
-        "aluminum",
-        "alumina",
-        "bauxite"
-      ],
-      "document_type": "profit_alert",
-      "document_type_label": "Alerta de Lucro (Profit Alert) — 1º Semestre 2026",
+      "accession_number": "2026082102177 (identificador de documento HKEXnews — não é um accession number formal); documento posterior \"Interim 2026 Report\" com identificador 2026092400430",
+      "document_type": "earnings",
+      "document_type_label": "Resultados Interinos Completos — 1S2026 (encerrado 30/06/2026), com Dividendo Interino — substitui/complementa o profit alert de julho/2026 já registrado",
       "sources": [
         {
-          "filename": "hkexnews_positive_profit_alert_1H2026.pdf",
-          "label": "Anúncio de \"Positive Profit Alert\" (informação privilegiada) na HKEX — referente ao semestre encerrado em 30/06/2026. Link abaixo aponta para o portal oficial de IR da empresa (hongqiaochina.com), pois não foi possível confirmar com segurança a URL exata do PDF individual no hkexnews.hk (ver note_for_reviewer)",
-          "source_url": "http://en.hongqiaochina.com/Investors_report.html",
-          "captured_at": "2026-07-20T00:00:00Z"
+          "filename": "2026082102177.pdf",
+          "label": "Anúncio de Resultados Interinos (não auditados) do 1S2026, aprovado em reunião do conselho de 21/08/2026, com dividendo interino",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082102177.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "2026092400430.pdf",
+          "label": "\"Interim 2026 Report\" — booklet estatutário completo do relatório interino, protocolado na HKEXnews em ~24/09/2026",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400430.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "260819news_eng.pdf",
+          "label": "Comunicado da HKEX sobre calendário/book-closure do dividendo interino da China Hongqiao",
+          "source_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260819news/260819news_eng.pdf",
+          "captured_at": "2026-09-28T00:00:00Z"
         }
       ],
       "tabs": {
-        "earnings_summary": "**Alerta de lucro positivo — 1S2026 (encerrado em 30/06/2026)**: a China Hongqiao (HKEX: 1378) protocolou junto à HKEX, em meados de julho/2026 (~13/07/2026), um \"positive profit alert\" indicando que o lucro líquido do 1S2026 deve registrar alta de aproximadamente 39% frente ao 1S2025 [Filing HKEX]. O comunicado atribui o crescimento primariamente à alta nos preços de venda de produtos de liga de alumínio (aluminium alloy) no período [Filing HKEX].\n\n**Números implícitos (estimativa de analista, NÃO dado explícito do filing)**: com base em lucro líquido estimado de RMB 13,5 bilhões no 1S2025 (referência de mercado, não confirmada contra o resultado auditado), a alta de ~39% implicaria lucro líquido de aproximadamente RMB 18,8 bilhões no 1S2026 — cálculo de casa de research (BofA Securities, via cobertura secundária), não uma cifra publicada pela própria companhia no alerta [Análise de mercado — BofA, via cobertura secundária].\n\n**Escopo do documento — atenção**: este é um alerta de lucro (profit forecast sob a Regra 14.60A-14.62 da HKEX), NÃO o relatório financeiro interino completo. Não há detalhamento de receita, margem, volume de produção/vendas de alumina, bauxita ou alumínio primário, nem demonstrações financeiras. Os resultados interinos completos (com demonstrações financeiras auditadas em revisão) são esperados para publicação até o final de agosto/2026 [Filing HKEX / cobertura secundária].\n\n**Este registro complementa, não substitui**, o resultado anual FY2025 (auditado) já constante neste painel.",
-        "conference_call_summary": "Não há teleconferência associada a este documento — alertas de lucro (\"positive profit alert\") sob as regras da HKEX são comunicados unilaterais de guidance, sem earnings call. Uma teleconferência com detalhamento de resultados deve ocorrer apenas por ocasião da publicação dos resultados interinos completos do 1S2026, esperada para o final de agosto/2026. Recomenda-se voltar a este registro naquela data.",
-        "commodity_commentary": "A alta de ~39% no lucro do 1S2026 repercutiu positivamente nas ações da China Hongqiao em Hong Kong. Segundo o **Reuters** (via republicação da TradingView), a companhia \"expects HY net profit to increase by about 39%\", atribuindo o resultado a preços mais altos de produtos de liga de alumínio [Reuters, via TradingView]. A **AlCircle** (trade press do setor de alumínio) confirmou o mesmo racional, destacando que \"stronger aluminium alloy prices\" sustentaram a rentabilidade no semestre encerrado em 30 de junho de 2026 [AlCircle].\n\n**Atenção a possível confusão de nomes**: há uma segunda entidade com nome semelhante — Shandong Hongqiao (Aluminium) Holdings (SZSE: 002379), controladora/afiliada da China Hongqiao mas listada separadamente em Shenzhen — que divulgou guidance de lucro BEM MAIS forte para o mesmo período (+69,72% a +81,04% a/a). Os dois números não devem ser confundidos: o +39% citado acima é especificamente da China Hongqiao Group Limited (HKEX: 1378), a entidade coberta neste registro.\n\nNão foi localizada cobertura direta e específica da Bloomberg ou FT sobre este alerta nesta pesquisa; Reuters (via wire/TradingView) e AlCircle foram as fontes de maior qualidade confirmadas com URL real."
+        "earnings_summary": "Em 21/08/2026 o conselho da China Hongqiao Group Limited (HKEX: 1378) aprovou e a empresa protocolou na HKEXnews os resultados interinos não auditados do semestre encerrado em 30/06/2026 — o relatório financeiro completo (distinto do profit alert de julho/2026 já registrado, que era apenas guidance preliminar), com dividendo interino declarado no mesmo comunicado. Um \"Interim 2026 Report\" (booklet estatutário completo) foi protocolado posteriormente, por volta de 22-24/09/2026. Números reportados via múltiplas fontes secundárias convergentes (NÃO confirmados por leitura direta do PDF primário — ver ressalva): receita de RMB ~87.505,9 milhões (+~8,0% a/a); lucro líquido atribuível aos acionistas de RMB ~17.210,31 milhões (+~39,2% a/a, em linha com o profit alert de julho que apontava alta de ~39%); LPA básico de RMB 1,734 (+~32%); valor exato do dividendo interino por ação não confirmado nesta rodada. Driver citado: alta nos preços de venda de produtos de liga de alumínio e aumento de volume/preço. RESSALVA IMPORTANTE: estes números NÃO devem ser tratados como dado primário confirmado — vêm de agregadores secundários (WebFetch bloqueado para hkexnews.hk e demais domínios nesta sessão). Recomenda-se fortemente que o próximo revisor abra diretamente o PDF em hkexnews.hk antes de tratar como definitivo.",
+        "conference_call_summary": "Não foi possível confirmar nesta pesquisa se houve teleconferência/webcast associado à publicação dos resultados de 21/08/2026, nem obter transcrição — o acesso à página de IR da empresa (en.hongqiaochina.com) foi bloqueado nesta sessão. Recomenda-se verificar diretamente no portal de investidores da empresa.",
+        "commodity_commentary": ""
       },
-      "generated_by": "claude-research",
-      "generated_at": "2026-07-20T00:00:00Z",
-      "status": "summarized",
-      "note_for_reviewer": "Este registro é um SUPLEMENTO ao resultado anual FY2025 (auditado) já existente no painel — NÃO o substitui. É um profit alert (guidance de lucro), não o relatório interino completo do 1S2026, que é esperado até o final de agosto/2026 conforme cobertura secundária (Eastmoney) — revisitar este registro naquela data e substituir por dados auditados/revisados completos assim que disponíveis.\n\nLimitação de sourcing: não consegui confirmar com segurança a URL exata do PDF do filing no hkexnews.hk nesta sessão — testei múltiplas datas candidatas e nenhuma pôde ser verificada com confiança como sendo especificamente o profit alert da China Hongqiao. O acesso direto (WebFetch) a hkexnews.hk, eastmoney, investing.com e outras fontes foi bloqueado por política de rede desta sessão (erro 403 em praticamente todos os domínios testados). Por isso, sources[] aponta para o portal de IR da empresa em vez do PDF específico — recomenda-se que um revisor humano confirme o número exato do anúncio diretamente em hkexnews.hk (title search por \"1378\") antes de citar este documento como fonte primária definitiva em material formal.\n\nO número de RMB 18,8 bilhões (lucro implícito) é um CÁLCULO DE ANALISTA (BofA, via cobertura secundária) sobre uma base também não-primária — não é uma cifra que conste no texto do próprio alerta de lucro, que tipicamente só declara o range percentual. Tratar como estimativa, não como dado confirmado da empresa.",
-      "commentary_sources": [
-        {
-          "outlet": "Reuters (via TradingView)",
-          "title": "China Hongqiao Expects HY Net Profit To Increase By About 39%",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43C0K7:0-china-hongqiao-expects-hy-net-profit-to-increase-by-about-39/",
-          "captured_at": "2026-07-13T00:00:00Z"
-        },
-        {
-          "outlet": "AlCircle",
-          "title": "China Hongqiao expects higher first-half profit on stronger aluminium alloy prices",
-          "url": "https://www.alcircle.com/press-release/china-hongqiao-expects-higher-first-half-profit-on-stronger-aluminium-alloy-prices-120302",
-          "captured_at": "2026-07-13T00:00:00Z"
-        }
-      ]
+      "commentary_sources": [],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03). O registro de profit_alert já existente previa o relatório interino completo para 'até o final de agosto/2026' — esta entrada confirma que ele foi de fato divulgado (21/08/2026), dentro do prazo esperado, substituindo o profit alert como o documento mais completo disponível. LIMITAÇÃO CRÍTICA: WebFetch bloqueado para TODOS os domínios testados nesta sessão (hkex.com.hk, hkexnews.hk, en.hongqiaochina.com, tipranks.com, tradingview.com, news.metal.com, mondovisione.com, e até en.wikipedia.org como controle). Não foi possível abrir/ler nenhum documento primário nem artigo de imprensa diretamente — todos os números em earnings_summary vêm de snippets de busca (WebSearch), repetidos de forma consistente entre agregadores, mas não confirmados linha a linha contra o documento oficial. commodity_commentary e commentary_sources foram deliberadamente deixados vazios: dois candidatos de imprensa foram identificados via busca (uma peça da Reuters via TradingView, \"China Hongqiao H1 profit rises 39% on higher aluminum alloy prices\", e uma nota da Tiger Brokers/itiger.com) mas nenhum teve data ou conteúdo confirmados por leitura direta — não incluídos para não arriscar citar data/conteúdo não verificado, conforme a regra de não fabricar do CLAUDE.md. ANTES DE PUBLICAR: confirmar (1) o PDF oficial em hkexnews.hk; (2) números exatos de receita/lucro/dividendo; (3) existência de call/apresentação; (4) pelo menos uma matéria de imprensa financeira de qualidade específica sobre esta divulgação, datada em ou após 21/08/2026; (5) que o 'Interim 2026 Report' de ~22-24/09 é de fato da China Hongqiao (1378)."
     },
     "nalco": {
       "company_id": "nalco",
@@ -4586,50 +4586,51 @@
     },
     "pt-antam": {
       "company_id": "pt-antam",
-      "accession_number": null,
-      "company_name": "PT Aneka Tambang Tbk (Antam)",
-      "commodities": [
-        "aluminum"
-      ],
+      "accession_number": "não aplicável — filings IDX/BEI não usam accession numbers no padrão SEC; documento específico não pôde ser aberto/confirmado diretamente nesta sessão (ver note_for_reviewer)",
       "document_type": "earnings",
-      "document_type_label": "Earnings Completo — Resultados do 1T26 (dado mais recente disponível)",
+      "document_type_label": "Laporan Keuangan Konsolidasian Interim — Semester I / Q2 2026 (período de 6 meses findo em 30/06/2026)",
       "sources": [
         {
-          "filename": "financial-report",
-          "label": "Página de Relatórios Financeiros — PT ANTAM Tbk (Relação com Investidores)",
+          "filename": "antam-financial-report-index",
+          "label": "PT ANTAM Tbk — Laporan Keuangan (página de índice de relatórios financeiros da própria empresa; a demonstração de 1H26/2Q26 está listada aqui segundo múltiplas fontes secundárias, mas a página não foi aberta diretamente nesta sessão)",
           "source_url": "https://www.antam.com/id/company-report/financial-report",
-          "captured_at": "2026-07-27T18:00:00Z"
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "idx-antm-announcements-index",
+          "label": "IDX (Bursa Efek Indonesia) — página de anúncios/keterbukaan informasi do emissor ANTM, onde o laporan keuangan Q2/1H2026 deveria estar publicado",
+          "source_url": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/",
+          "captured_at": "2026-09-28T00:00:00Z"
         }
       ],
       "tabs": {
-        "earnings_summary": "**Resultados do 1T26 (janeiro–março de 2026)** — divulgados por volta de 28/04/2026. Dados obtidos via cobertura de imprensa indonésia que cita o relatório trimestral da Antam; a fonte primária (relatório trimestral IDX/RI) não pôde ser acessada diretamente nesta pesquisa por bloqueio de rede desta sessão — as cifras abaixo precisam ser confirmadas contra o documento original antes de uso definitivo.\n\n- **Receita líquida (pendapatan bersih)**: Rp 29,32 trilhões no 1T26, alta de ~12% frente aos Rp 26,15 trilhões do 1T25, com vendas domésticas respondendo por 97% do total, puxadas por ouro, minério de níquel e bauxita.\n- **Lucro bruto**: Rp 5,62 trilhões, alta de 54% frente a Rp 3,64 trilhões no 1T25.\n- **Lucro operacional**: Rp 4,50 trilhões, alta de 67% frente a Rp 2,69 trilhões no 1T25.\n- **EBITDA**: Rp 5,05 trilhões, alta de 55% frente a Rp 3,26 trilhões no 1T25.\n- **Lucro líquido (laba bersih)**: HÁ DIVERGÊNCIA relevante entre fontes de imprensa. A maioria dos veículos consultados (Tempo, RM.id, VOI, Okezone, Pewarta) reporta Rp 3,66 trilhões, alta de 58% frente a Rp 2,32 trilhões no 1T25. Já a Koran BUMN reporta Rp 3,40 trilhões, e outra fonte cita ~Rp 3,41 trilhões com alta de aproximadamente 59,85%–61,9% conforme o veículo. Não foi possível, nesta pesquisa, confirmar qual valor corresponde exatamente ao lucro líquido atribuível aos acionistas controladores informado oficialmente pela Antam — a divergência pode refletir bases de cálculo diferentes (lucro total vs. atribuível a controladores) ou imprecisão de imprensa.\n\nNenhuma destas cifras foi verificada diretamente contra o relatório financeiro trimestral oficial da Antam (IDX/RI) nesta pesquisa, devido a bloqueio de acesso a antam.com e ao portal da IDX nesta sessão.",
-        "conference_call_summary": "Não foi localizada, nesta pesquisa, confirmação de teleconferência de resultados do 1T26 ou transcrição disponível para a Antam. Recomenda-se verificar diretamente no site de RI (antam.com/id/investor-relations) se houve conference call/public expose e obter a transcrição, caso exista, para complementar esta aba.",
-        "commodity_commentary": "A imprensa de negócios indonésia noticiou amplamente o salto de lucro da Antam no 1T26 como reflexo do ciclo favorável de preços de ouro e níquel no mercado internacional, somado à recuperação da demanda doméstica. Reportagens da Tempo.co (\"Antam Bukukan Laba Bersih Rp3,66 Triliun pada Kuartal I 2026\"), da Okezone Economy e da VOI destacaram o crescimento de 58% no lucro líquido ano contra ano, atribuindo o resultado principalmente à forte contribuição das vendas domésticas de ouro, minério de níquel e bauxita, que responderam por 97% da receita total do trimestre [Tempo; Okezone; VOI]. A cobertura também enfatizou o salto de 55% no EBITDA e de 67% no lucro operacional como sinais de melhora de margem operacional da estatal de mineração. Não foram encontradas, nesta pesquisa, reportagens de veículos como Bloomberg, Reuters ou The Edge Malaysia especificamente sobre este resultado — a cobertura ficou concentrada em veículos indonésios de língua local (Tempo, Okezone, VOI, RM.id, Pewarta, Koran BUMN), o que é aceitável como fallback regional conforme os critérios desta planilha. Também não foi encontrada menção explícita à reação do preço da ação ANTM na IDX no pregão pós-divulgação. Importante: como o resultado é do 1T26 (divulgado em 28/04/2026) e hoje é 27/07/2026, esta cobertura reflete a reação de mercado da época da divulgação, não uma notícia nova — friso isso para que fique claro que não se trata de cobertura de um evento recente."
+        "earnings_summary": "PT Aneka Tambang Tbk (Antam, IDX: ANTM) divulgou o resultado do Semestre I / 2º trimestre de 2026 (período findo em 30/06/2026) por volta de 28-29/08/2026, resolvendo a lacuna do registro de 1T26 anterior (que não havia encontrado dado do 2T26 até 27/07/2026). Segundo múltiplas fontes de imprensa financeira indonésia convergentes (NÃO confirmado por leitura direta do documento primário — ver ressalva): laba bersih/lucro líquido de Rp6,91 triliun no 1H26 (+34% a/a vs. Rp5,14 triliun no 1H25); penjualan bersih/receita líquida de Rp62,71 triliun (+6% a/a), com ouro respondendo por 80% da receita (Rp50,39 triliun) e níquel por ~17%; laba usaha/lucro operacional de Rp8,44 triliun (+38% a/a); EBITDA de Rp9,62 triliun (+35% a/a); LPA básico de Rp265,85 (+36%). Caixa e equivalentes de Rp9,23 triliun; ativos totais de Rp61,27 triliun; patrimônio de Rp38,53 triliun. DIVERGÊNCIA NÃO RESOLVIDA: pelo menos uma fonte cita 'laba bersih yang diatribusikan kepada pemilik entitas induk' (lucro atribuível aos controladores) de Rp6,39 triliun (+36%) em vez de Rp6,91 triliun — possivelmente uma métrica diferente (lucro total do período vs. atribuível aos controladores), não reconciliado contra o documento primário. RESSALVA CRÍTICA DE FONTE: WebFetch bloqueado nesta sessão para antam.com, idx.co.id e a maioria dos veículos de imprensa indonésios; não foi possível abrir/ler o documento primário do IDX ou o release oficial da Antam. Estes números NÃO devem ser tratados como definitivos sem confirmação direta do PDF oficial.",
+        "conference_call_summary": "Não foi encontrada transcrição de conference call, apresentação a analistas ou webcast especificamente sobre o resultado do 1H26/2Q26 da Antam nesta pesquisa. Não foi fabricado conteúdo — se uma call ocorreu, precisa ser localizada e verificada separadamente.",
+        "commodity_commentary": "Bloomberg Technoz (joint venture indonésia da Bloomberg) publicou por volta de 28-29/08/2026 'ANTM Cetak Laba Bersih Rp6,91 Triliun Semester I-2026', e uma matéria de acompanhamento destacando expansão de margem (margem bruta de 14,0% para 17,3%; margem operacional de 10,4% para 13,5%; margem líquida de 8,0% para 10,2%). Mining.com.au noticiou 'ANTAM posts 34% profit jump to $543 million'. ANTARA News (agência estatal indonésia) também noticiou o resultado. O driver citado por todas as fontes é o preço do ouro (80% da receita) e disciplina de capital de giro. Não foi encontrada cobertura de imprensa internacional tier-1 (Bloomberg global, Reuters, FT, WSJ) fora do JV indonésio especificamente sobre este resultado. Nenhuma reação de preço de ação na IDX foi confirmada ou incluída."
       },
-      "generated_by": "scheduled-routine-2026-07-27",
-      "generated_at": "2026-07-27T18:00:00Z",
-      "status": "summarized",
-      "note_for_reviewer": "Primeira entrada para esta empresa. Dados são do 1T26 (divulgados ~28/04/2026) — pesquisa específica por resultados do 2T26 (kuartal II 2026) não retornou nenhum resultado publicado até a data desta pesquisa (27/07/2026); é possível que o 2T26 ainda não tenha sido divulgado (emissoras indonésias costumam publicar resultados trimestrais no fim de julho/início de agosto) ou que a cobertura ainda não tenha sido indexada pelos buscadores usados — vale nova checagem em 1–2 semanas. GAP: não foi possível acessar diretamente o relatório financeiro oficial da Antam (antam.com nem IDX) nesta pesquisa por bloqueio de rede desta sessão; todas as cifras vêm de imprensa secundária. HÁ DIVERGÊNCIA NÃO RESOLVIDA sobre o lucro líquido do 1T26: maioria da imprensa cita Rp 3,66 tri (+58%), mas Koran BUMN cita Rp 3,40 tri e outra fonte ~Rp 3,41 tri (+~60%) — os dois valores podem ser lucro total vs. lucro atribuível aos controladores. NOTA ADICIONAL: a categorização \"commodities: aluminum\" cadastrada para esta empresa provavelmente está incorreta (a Antam é primariamente uma mineradora de níquel e ouro, com bauxita/alumina como linha secundária) — o array de commodities não foi alterado nesta atualização, mas fica o registro para eventual correção futura. Confirmar todas as cifras contra o relatório oficial da Antam antes de finalizar esta ficha.",
       "commentary_sources": [
         {
-          "outlet": "Tempo.co",
-          "title": "Antam Bukukan Laba Bersih Rp3,66 Triliun pada Kuartal I 2026",
-          "url": "https://www.tempo.co/ekonomi/antam-bukukan-laba-bersih-rp3-66-triliun-pada-kuartal-i-2026-2132738",
-          "captured_at": "2026-04-28T12:00:00Z"
+          "outlet": "Bloomberg Technoz",
+          "title": "ANTM Cetak Laba Bersih Rp6,91 Triliun Semester I-2026",
+          "url": "https://www.bloombergtechnoz.com/detail-news/119865/antm-cetak-laba-bersih-rp6-91-triliun-semester-i-2026",
+          "captured_at": "2026-08-28T00:00:00Z"
         },
         {
-          "outlet": "Okezone Economy",
-          "title": "Antam Raih Laba Bersih Rp3,66 Triliun di Kuartal I-2026",
-          "url": "https://economy.okezone.com/read/2026/04/28/320/3215178/antam-raih-laba-bersih-rp3-66-triliun-di-kuartal-i-2026",
-          "captured_at": "2026-04-28T12:00:00Z"
+          "outlet": "Mining.com.au",
+          "title": "ANTAM posts 34% profit jump to $543 million",
+          "url": "https://mining.com.au/antam-posts-34-profit-jump-to-543-million/",
+          "captured_at": "2026-08-29T00:00:00Z"
         },
         {
-          "outlet": "VOI.id",
-          "title": "Antam Raup Laba Bersih Rp3,66 Triliun pada Kuartal I-2026",
-          "url": "https://voi.id/ekonomi/573125/antam-raup-laba-bersih-rp3-66-triliun-pada-kuartal-2026",
-          "captured_at": "2026-04-28T12:00:00Z"
+          "outlet": "ANTARA News",
+          "title": "Antam membukukan laba bersih Rp6,91 triliun pada semester I-2026",
+          "url": "https://www.antaranews.com/berita/5735525/antam-membukukan-laba-bersih-rp691-triliun-pada-semester-i-2026",
+          "captured_at": "2026-08-28T00:00:00Z"
         }
-      ]
+      ],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03). O registro de 1T26 já existente sinalizava que o 2T26 ainda não havia sido encontrado até 27/07/2026 — esta entrada resolve essa lacuna, confirmando divulgação em ~28-29/08/2026 (dentro do prazo regulatório de 2 meses após o fim do trimestre). LIMITAÇÃO CRÍTICA: WebFetch bloqueado nesta sessão para praticamente todo domínio testado (antam.com, idx.co.id, antaranews.com, bloombergtechnoz.com, mining.com.au, entre outros) — nenhum documento primário foi lido diretamente; todos os números vêm de convergência de ~10 fontes de imprensa indonésia independentes. ANTES DE PUBLICAR: buscar diretamente o PDF oficial no IDX ou o 'Rilis Pengantar FS 2Q26/1H26' da Antam e resolver a divergência entre Rp6,91tri e Rp6,39tri de lucro líquido. Não foi encontrada cobertura internacional tier-1 (Bloomberg global/Reuters/FT/WSJ) — apenas Bloomberg Technoz (JV local) e imprensa regional. Nenhuma reação de preço de ação foi inventada."
     },
     "impala-platinum": {
       "company_id": "impala-platinum",
@@ -5188,6 +5189,60 @@
       "generated_by": "scheduled-routine-2026-08-03",
       "generated_at": "2026-08-03T18:00:00Z",
       "status": "summarized"
+    },
+    "barrick-mining": {
+      "company_id": "barrick-mining",
+      "accession_number": "0001193125-26-343857 (inferido da estrutura de URL do SEC EDGAR — pasta contendo os exhibits do Form 6-K de Q2 2026; não confirmado por leitura direta do documento)",
+      "document_type": "earnings",
+      "document_type_label": "Earnings Completo — Resultados do 2T26 (divulgados 10/08/2026) — primeira entrada da Barrick Mining Corporation no painel",
+      "sources": [
+        {
+          "filename": "d67611dex991.htm",
+          "label": "Press release oficial 'Barrick Reports Second Quarter 2026 Results' — Exhibit 99.1 do Form 6-K na SEC EDGAR",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0000756894/000119312526343857/d67611dex991.htm",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "d67611dex992.htm",
+          "label": "Exhibit 99.2 do mesmo Form 6-K (demonstrações financeiras/MD&A do 2T26) — não lido diretamente, apenas identificado via busca",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0000756894/000119312526343857/d67611dex992.htm",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "q2-2026-results",
+          "label": "Página oficial de RI da Barrick — 'Barrick Reports Second Quarter 2026 Results'",
+          "source_url": "https://www.barrick.com/English/news/news-details/2026/q2-2026-results/default.aspx",
+          "captured_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "filename": "barrick-reports-second-quarter-2026-results",
+          "label": "Republicação do press release via GlobeNewswire (canal de distribuição oficial da empresa)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/08/10/3341633/0/en/barrick-reports-second-quarter-2026-results.html",
+          "captured_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "tabs": {
+        "earnings_summary": "Primeira entrada da Barrick Mining Corporation (ex-Barrick Gold Corporation, renomeada em maio/2025; NYSE: B desde 09/05/2025, TSX: ABX mantido) no painel. Resultados do 2T26, divulgados 10/08/2026: receita de US$ 5,29 bilhões (+44% a/a); lucro líquido de US$ 1,22 bilhão / US$ 0,73 por ação (+50% a/a); lucro líquido ajustado de US$ 1,36 bilhão / US$ 0,82 por ação (+70%/+74% a/a). Fluxo de caixa operacional de US$ 1,70 bilhão; fluxo de caixa operacional atribuível de US$ 1,12 bilhão; fluxo de caixa livre atribuível de US$ 141 milhões. Produção de ouro de 796 mil onças (acima do guidance trimestral de 730-770 mil onças, +11% vs. 1T26); produção de cobre de 56 mil toneladas (-5% a/a, dentro do plano). AISC ouro de US$ 1.866/oz (+11% a/a); AISC cobre de US$ 3,95/lb (+36% a/a). Guidance 2026 mantido: ouro 2,90-3,25 Moz; cobre 190-220 mil toneladas. Dividendo trimestral declarado de US$ 0,175/ação; recompra de ações de ~US$ 1,2 bilhão no trimestre (programa de até US$ 3 bilhões autorizado em 08/05/2026); retorno total a acionistas no trimestre de US$ 1,50 bilhão (+242% a/a). Acordo com a Newmont assinado no trimestre — ATENÇÃO, é ASSINATURA, não fechamento/closing: expansão da joint venture Nevada Gold Mines com vend-in antecipado de Fourmile (Barrick) e Mike/Fiberline (Newmont); Newmont pagará à Barrick US$ 1,95 bilhão em até 30 dias; Newmont consentiu com o IPO planejado dos ativos norte-americanos de ouro da Barrick, esperado até o fim de 2026. RESSALVA DE FONTE: WebFetch bloqueado para todos os domínios testados nesta sessão (incl. sec.gov e barrick.com); números cruzados em 5 buscas independentes convergentes, mas não confirmados por leitura direta do documento primário.",
+        "conference_call_summary": "A teleconferência de resultados do 2T26 ocorreu em 10/08/2026, com transcrições publicadas por Motley Fool, Benzinga e Globe and Mail — não acessadas diretamente nesta sessão, portanto nenhuma citação literal é reproduzida. Pela cobertura agregada, os temas centrais foram a produção de ouro recorde/acima do guidance, o acordo com a Newmont destravando o IPO planejado dos ativos norte-americanos, e a continuidade do programa de recompra de ações.",
+        "commodity_commentary": "Não foi localizada, nesta sessão, uma matéria distinta da Bloomberg, Reuters, FT ou WSJ com análise própria sobre a reação do mercado a este resultado. Como fallback: Zacks/Yahoo Finance publicou 'Barrick Mining's Q2 Earnings & Sales Top Estimates on Higher Prices', destacando que lucro e receita superaram o consenso, impulsionados por preços mais altos de ouro e cobre; Investing.com publicou 'Barrick Q2 2026 slides: gold output beats, earnings surge 50%', com foco na produção recorde de ouro e no salto de 50% no lucro. A reação do preço da ação no dia não pôde ser confirmada com segurança (uma busca retornou uma cotação inconsistente com a faixa de negociação conhecida, descartada por não confiável)."
+      },
+      "commentary_sources": [
+        {
+          "outlet": "Zacks Investment Research (via Yahoo Finance)",
+          "title": "Barrick Mining's Q2 Earnings & Sales Top Estimates on Higher Prices",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-minings-q2-earnings-sales-121700925.html",
+          "captured_at": "2026-08-11T00:00:00Z"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Barrick Q2 2026 slides: gold output beats, earnings surge 50%",
+          "url": "https://www.investing.com/news/company-news/barrick-q2-2026-slides-gold-output-beats-earnings-surge-50-93CH-4849912",
+          "captured_at": "2026-08-10T00:00:00Z"
+        }
+      ],
+      "generated_by": "weekly-freshness-check-agent (rotina automatizada semanal, Claude Sonnet 5) — pendente revisão humana",
+      "generated_at": "2026-09-28T00:00:00Z",
+      "note_for_reviewer": "Rodada de freshness-check semanal (checked_at anterior: 2026-08-03) — este era um GAP no painel (nenhuma entrada existia para a Barrick Mining Corporation); esta é a primeira entrada. LIMITAÇÃO: WebFetch bloqueado para todos os domínios testados nesta sessão (sec.gov, barrick.com, globenewswire.com, nasdaq.com, theglobeandmail.com, investing.com, mining.com, finance.yahoo.com, stockanalysis.com, entre outros). Números cruzados em 5 buscas independentes convergentes (boa confiança), mas não confirmados por leitura direta do Form 6-K. Accession number inferido apenas da URL, não reconfirmado. Ticker e identidade da empresa (Barrick Mining Corporation, ex-Barrick Gold, ouro/cobre, CIK 0000756894) confirmados por múltiplas fontes convergentes. O acordo com a Newmont é uma ASSINATURA dentro do trimestre (pagamento subsequente em até 30 dias) — não um fechamento de M&A já concluído; tratar com o mesmo cuidado que o caso Anglo American/Codelco mencionado no CLAUDE.md. Nenhuma data oficial para os resultados do 3T26 foi encontrada nesta sessão (trimestre encerra 30/09/2026; padrão histórico sugere divulgação em meados/final de novembro, mas isso não é uma data confirmada)."
     }
   }
 }</script>
