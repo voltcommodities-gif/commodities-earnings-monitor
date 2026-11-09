@@ -5942,6 +5942,7 @@
   });
 
   function renderMd(src) {
+    if (src == null) src = '_Nenhuma informação disponível nesta atualização._';
     const escapeHtml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const blocks = src.split(/\n\n+/);
     let html = '';
